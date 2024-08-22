@@ -15,4 +15,3 @@ print(5 // 3) # Divisão inteira
 print(5 % 3) # Resto da divisão
 
 print(5 ** 3) # Potenciação
- 
