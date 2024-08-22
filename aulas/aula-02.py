@@ -8,4 +8,4 @@
     Para criar uma docstring, utilize três caracteres de aspas simples ou duplas para abrir o bloco e depois mais três para fechar.
 '''
 
-print('Comentários e docstrings')
+print('Comentários e docstrings') # Podemos inserir comentários em qualquer lugar do código, sem interferir no programa.
