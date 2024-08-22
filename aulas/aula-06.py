@@ -20,3 +20,7 @@ print(5 > 2) # 5 é maior que dois, portanto retorna True
 print(3 == 3) # 3 é igual a 3 e por isso retorna True
 print(12 < 8) # 12 não é menor que oito, portanto retorna False
 print(bool('')) # Uma string vazia retorna False
+
+'''
+Utilizaremos os booleanos para realizar o controle de fluxo do nosso programa, através de estruturas condicionais.
+'''
