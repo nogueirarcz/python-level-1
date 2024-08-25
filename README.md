@@ -2,21 +2,21 @@
  Repositório de estudos de programação com linguagem Python para alunos do curso de Engenharia de Software
 
 # Conteúdo que você encontrará neste curso
-- Módulos Python
-- Tipos de dados
-- Docstrings e comentários
-- Função print
-- Coerção de tipos de dados
-- Variáveis em Python
-- Operadores lógicos
-- Operadores aritméticos
-- Formatação de strings
-- Estruturas condicionais
-- Estruturas de repetição
+- Módulos Python                                            - ok
+- Tipos de dados                                            - ok
+- Docstrings e comentários                                  - ok
+- Função print                                              - ok
+- Coerção de tipos de dados                                 - ok
+- Variáveis em Python                                       - ok
+- Operadores lógicos                                        - ok
+- Operadores aritméticos                                    - ok
+- Formatação de strings                                     - ok
+- Estruturas condicionais                                   - ok
+- Estruturas de repetição                                   - ok
 - Tratamento de erros com try e except
 - Complexidade
 - Estruturas de dados
-- Listas
+- Listas                                                    - ok
 - Tuplas
 - Dicionários
 - Filas
