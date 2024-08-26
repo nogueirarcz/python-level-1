@@ -13,7 +13,7 @@
 - Formatação de strings                                     - ok
 - Estruturas condicionais                                   - ok
 - Estruturas de repetição                                   - ok
-- Tratamento de erros com try e except
+- Tratamento de erros com try e except                      - ok
 - Complexidade
 - Estruturas de dados
 - Listas                                                    - ok

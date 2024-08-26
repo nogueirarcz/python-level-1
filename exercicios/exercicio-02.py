@@ -1,7 +1,7 @@
 # Curso de Engenharia de Software - Algoritmos e Estruturas de Dados
 # Professor Guilherme Nogueira
 
-# Exercício 01
+# Exercício 02
 
 '''
 Peça ao usuário para digitar seu nome.
