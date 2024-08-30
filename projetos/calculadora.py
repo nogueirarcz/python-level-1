@@ -8,6 +8,8 @@ while True:
     numero_2 = input('Digite o segundo número: ')
     operador = input('Digite o operador (+ - / *): ')
     numeros_validos = None
+    numero_1_float = 0
+    numero_2_float = 0
 
     try:
 
@@ -36,6 +38,24 @@ while True:
         print('Você deve informar apenas 1 único operador.')
         continue
 
+    print('Realizando a operação:')
+
+    if operador == '+':
+
+        print(f'{numero_1_float} + {numero_2_float} = {numero_1_float + numero_2_float}')
+
+    if operador == '-':
+
+        print(f'{numero_1_float} - {numero_2_float} = {numero_1_float - numero_2_float}')
+        
+    if operador == '*':
+
+        print(f'{numero_1_float} * {numero_2_float} = {numero_1_float * numero_2_float}')
+        
+    if operador == '/':
+
+        print(f'{numero_1_float} / {numero_2_float} = {numero_1_float / numero_2_float}')
+        
     sair = input('Aperte [s] para sair do programa: ').lower().startswith('s')
     
     if sair:
