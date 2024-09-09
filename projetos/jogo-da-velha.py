@@ -13,8 +13,6 @@ def mostrar_tabuleiro(tabuleiro):
 
     print(tabuleiro['low-l'] +' | '+ tabuleiro['low-m'] +' | '+ tabuleiro['low-r'])
 
-mostrar_tabuleiro(tabuleiro)
-
 jogador = 'x'
 
 for i in range(9):
