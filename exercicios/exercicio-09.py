@@ -1,6 +1,14 @@
+# Curso de Engenharia de Software - Algoritmos e Estruturas de Dados
+# Professor Guilherme Nogueira
+
+# Exercício 09
+
 '''
 Excreva um programa que exita a sequência de Collatz
 '''
+# .---------------------------.
+# |         Resolução         |
+# '---------------------------'
 
 terminou = False
 valor_inicial = int(input('Informe um valor para iniciar a sequência de Collatz: '))

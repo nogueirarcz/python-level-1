@@ -1,7 +1,15 @@
+# Curso de Engenharia de Software - Algoritmos e Estruturas de Dados
+# Professor Guilherme Nogueira
+
+# Exercício 08
+
 '''
 Faça uma lista de compras. Dê ao usuário a opção de vizualizar os itens,
 inserir e remover itens
 '''
+# .---------------------------.
+# |         Resolução         |
+# '---------------------------'
 
 import os
 
