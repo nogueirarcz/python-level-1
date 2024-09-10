@@ -27,3 +27,17 @@ print(lista_um)
 tupla_um = tuple(lista_um)
 print(type(tupla_um))
 print(lista_um)
+
+# Podemos acessar um item específico de uma tupla usando o índice
+print(tupla_um[1])
+print(tupla_um[2])
+
+'''
+Como não podemos alterar a tupla, métodos como append e remove não estão disponíveis.
+'''
+
+# Mas podemos usar o método index para encontrar o índice de um elemento
+print(tupla_um.index('Vermelho'))
+
+# Ou o método count para verificar quantas vezes um elemento aparece na tupla
+print(tupla_um.count('Vermelho'))
