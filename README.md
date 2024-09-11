@@ -17,10 +17,10 @@
 - Complexidade
 - Estruturas de dados
 - Listas                                                    - ok
-- Tuplas
-- Dicionários
+- Tuplas                                                    - ok
+- Dicionários                                               - ok
 - Filas
 - Pilhas
 - Ponteiros
-- Funções
-- Exercícios diversos
+- Funções                                                   - ok
+- Exercícios diversos                                       - ok
