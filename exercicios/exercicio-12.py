@@ -44,3 +44,16 @@ print(f'Soma: {soma_das_multiplicacoes}')
 
 digito_dois = ((soma_das_multiplicacoes * 10) % 11)
 print(f'Segundo dígito: {digito_dois}')
+
+# Verificação
+print('\n\nVerificação')
+
+cpf_validacao = f'{nove_digitos}{digito_um}{digito_dois}'
+
+if cpf == cpf_validacao:
+
+    print(f'O CPF {cpf} informado pelo usuário é [VÁLIDO]')
+
+else:
+
+    print(f'O CPF {cpf} informado pelo usuário é [INVÁLIDO]')
