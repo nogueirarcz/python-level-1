@@ -19,3 +19,11 @@ print(contato.values())
 # Usamos setdefault para determinar o valor padrão para uma chave
 contato.setdefault('idade', None)
 print(contato)
+
+# Com o método popitem() iremos eliminar a última chave do dicionário
+contato.popitem()
+print(contato)
+
+# Com o método update() podemos alterar os itens
+contato.update({'email': 'guilherme@email.com'})
+print(contato)
