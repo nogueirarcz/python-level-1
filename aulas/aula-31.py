@@ -20,3 +20,10 @@ print()
 
 # Agora desempacotar a lista e quebrar uma linha a cada produto
 print(*novos_produtos, sep='\n')
+
+# Vamos aplicar um filtro em uma lista
+lista_pares = [n for n in range(10) if n % 2 == 0]
+print(lista_pares)
+
+lista_impares = [n for n in range(10) if n % 2 != 0]
+print(lista_impares)
