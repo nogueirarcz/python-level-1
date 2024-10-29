@@ -1,2 +1,3 @@
 venv/
 testes.py
+__pycache__/
