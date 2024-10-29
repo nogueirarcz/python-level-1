@@ -1,0 +1,25 @@
+Projeto prático de Estrutura de dados e Algoritmos
+
+Requisitos
+
+    1 - Identificar se é ou não uma equação quadrática
+
+    2 - Caso não seja, informar o erro e reiniciar o programa
+
+    3 - Caso seja, calcular o valor de Delta
+
+    4 - Se Delta > 0 --> Informar que há duas raízes possíveis
+
+    5 - Se delta == 0 --> Informar que há uma raíz possível
+
+    6 - Se delta < 0 --> Informar que não há raízes possíveis
+
+    7 - Avaliadas as possibilidades de Delta, aplicar Bhaskara
+
+    8 - Usar o resultado de Bhaskara para calcular as raízes
+
+    9 - Identificar a direção da parábola
+
+    10 - CAlcular as coordenadas do ponto máximo ou mínimo da parábola
+
+    EXTRA - Desenhar o gráfico da função
