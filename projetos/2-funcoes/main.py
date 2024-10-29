@@ -1,13 +1,6 @@
 import coeficientes as coef
 import os
 
-termo_a = None
-termo_b = None
-termo_c = None
-
-# Loop geral para validar se é uma função quadrática
-
-
 # Loop para validar o coeficiente a
 while True:
 
