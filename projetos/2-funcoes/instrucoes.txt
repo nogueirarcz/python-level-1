@@ -2,7 +2,7 @@ Projeto prático de Estrutura de dados e Algoritmos
 
 Requisitos
 
-    1 - Identificar se é ou não uma equação quadrática
+    1 - Identificar se é ou não uma função quadrática
 
     2 - Caso não seja, informar o erro e reiniciar o programa
 
