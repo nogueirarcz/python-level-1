@@ -1,4 +1,5 @@
 import coeficientes as coef
+import formulas as form
 import os
 
 # Loop para validar o coeficiente a
@@ -24,6 +25,7 @@ while True:
     # Caso esteja tudo certo
     else:
 
+        termo_a = float(termo_a)
         os.system('cls')
         print(resultado_a[1])
         break
@@ -44,6 +46,7 @@ while True:
     # Caso esteja tudo certo
     else:
 
+        termo_b = float(termo_b)
         os.system('cls')
         print(resultado_b[1])
         break
@@ -64,6 +67,7 @@ while True:
     # Caso esteja tudo certo
     else:
 
+        termo_c = float(termo_c)
         os.system('cls')
         print(resultado_c[1])
         break
@@ -72,3 +76,24 @@ while True:
 # Apresentar a lei de formação
 print('\nA lei de formação da função é: ')
 print(f'f(x) = {termo_a}x² + ({termo_b}x) + ({termo_c})')
+
+# Apresenta o Delta
+print('')
+delta = form.delta(termo_a, termo_b, termo_c)
+print(f'O Delta da função é {delta}')
+
+# Análise do delta
+if delta < 0:
+
+    print('')
+    print('Delta é maior que zero e, portanto, não há raízes nesta função.\n')
+
+elif delta == 0:
+
+    print('')
+    print('Delta é igual a zero e, portanto, há uma única raíz nesta função.\n')
+
+else:
+
+    print('')
+    print('Delta é maior que zero e, portanto, há duas raízes nesta função\n')
