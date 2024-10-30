@@ -80,20 +80,5 @@ print(f'f(x) = {termo_a}x² + ({termo_b}x) + ({termo_c})')
 # Apresenta o Delta
 print('')
 delta = form.delta(termo_a, termo_b, termo_c)
-print(f'O Delta da função é {delta}')
-
-# Análise do delta
-if delta < 0:
-
-    print('')
-    print('Delta é maior que zero e, portanto, não há raízes nesta função.\n')
-
-elif delta == 0:
-
-    print('')
-    print('Delta é igual a zero e, portanto, há uma única raíz nesta função.\n')
-
-else:
-
-    print('')
-    print('Delta é maior que zero e, portanto, há duas raízes nesta função\n')
+print(f'O Delta da função é {delta[0]}')
+print(f'{delta[1]}')
