@@ -67,3 +67,8 @@ while True:
         os.system('cls')
         print(resultado_c[1])
         break
+
+
+# Apresentar a lei de formação
+print('\nA lei de formação da função é: ')
+print(f'f(x) = {termo_a}x² + ({termo_b}x) + ({termo_c})')
