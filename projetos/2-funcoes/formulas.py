@@ -21,3 +21,15 @@ def delta(a, b, c):
 
 
     return delta, msg
+
+def primeira_raiz(a, b, c, delta):
+
+    x1 = (b * -1) + (delta ** 1/2) / (2 * a)
+    
+    return x1
+
+def segunda_raiz(a, b, c, delta):
+
+    ...
+
+

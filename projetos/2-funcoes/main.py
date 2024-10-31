@@ -72,13 +72,19 @@ while True:
         print(resultado_c[1])
         break
 
-
 # Apresentar a lei de formação
 print('\nA lei de formação da função é: ')
 print(f'f(x) = {termo_a}x² + ({termo_b}x) + ({termo_c})')
 
-# Apresenta o Delta
+# Apresentar o Delta
 print('')
 delta = form.delta(termo_a, termo_b, termo_c)
 print(f'O Delta da função é {delta[0]}')
 print(f'{delta[1]}')
+
+# Apresenta a primeira raiz
+if delta[0] > 0:
+
+    x1 = form.primeira_raiz(termo_a, termo_b, termo_c, delta[0])
+
+    print(f'A primeira raiz da função é {x1}')
