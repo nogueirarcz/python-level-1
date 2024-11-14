@@ -24,13 +24,13 @@ def delta(a, b, c):
 
 def primeira_raiz(a, b, delta):
 
-    x1 = (b * -1) + (delta ** 1/2) / (2 * a)
+    x1 = ((b * -1) + (delta ** (1/2))) / (2 * a)
     
     return x1
 
 def segunda_raiz(a, b, delta):
 
-    x2 = (b * -1) - (delta ** 1/2) / (2 * a)
+    x2 = ((b * -1) - (delta ** (1/2))) / (2 * a)
 
     return x2
 

@@ -85,7 +85,7 @@ print(f'{delta[1]}')
 # Apresenta a primeira raiz
 if delta[0] >= 0:
 
-    x1 = form.primeira_raiz(termo_a, termo_b, termo_c, delta[0])
+    x1 = form.primeira_raiz(termo_a, termo_b, delta[0])
 
     print(f'A primeira raiz da função é {x1}')
 
@@ -98,4 +98,3 @@ if delta[0] > 0:
 if delta[0] < 0:
 
     print('Esta função não possui raizes.')
-    
