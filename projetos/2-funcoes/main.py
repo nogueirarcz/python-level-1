@@ -89,12 +89,26 @@ if delta[0] >= 0:
 
     print(f'A primeira raiz da função é {x1}')
 
+# Apresenta a segunda raiz
 if delta[0] > 0:
 
     x2 = form.segunda_raiz(termo_a, termo_b, delta[0])
 
     print(f'A segunda raiz da função é {x2}')
 
+# Não há raízes
 if delta[0] < 0:
 
     print('Esta função não possui raizes.')
+
+# Apresenta o ponto máximo ou mínimo
+xv = form.vertice_x(termo_a, termo_b)
+yv = form.vertice_y(termo_a, delta)
+
+if termo_a < 0:
+
+    print(f'O ponto mínimo da função é ({xv}  , {yv})')
+
+else:
+
+    print(f'O ponto máximo da função é ({xv}  , {yv})')

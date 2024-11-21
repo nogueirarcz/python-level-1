@@ -35,3 +35,14 @@ def segunda_raiz(a, b, delta):
     return x2
 
 
+def vertice_x(a, b):
+
+    vertice_x = (b * -1) / (2 * a)
+
+    return vertice_x
+
+def vertice_y(a, delta):
+
+    vertice_y = (delta[0] * - 1) / (4 * a)
+    
+    return vertice_y
