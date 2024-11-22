@@ -76,6 +76,8 @@ while True:
 print('\nA lei de formação da função é: ')
 print(f'f(x) = {termo_a}x² + ({termo_b}x) + ({termo_c})')
 
+funcao = (termo_a * (x**2) + (termo_b * x) + termo_c)
+
 # Apresentar o Delta
 print('')
 delta = form.delta(termo_a, termo_b, termo_c)
