@@ -1,18 +1,18 @@
 import matplotlib.pyplot as plt
 
+valores_x = []
+valores_y = []
+
+
 def gerar_valores(a, b, c):
 
-    valores_x = []
-    valores_y = []
-
-    for x in range (-10, 11, 1):
+    for x in range(-10, 11, 1):
 
         valores_x.append(x)
+        valores_y.append((a * (x ** 2)) + (b * x) + c)
 
-        valores_y.append((a * x(**2)) + (b * x) + c)
-    
     return valores_x, valores_y
-
+    
 def gerar_grafico(x, y):
 
     fig, ax = plt.subplots()

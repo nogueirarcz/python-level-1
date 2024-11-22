@@ -1,5 +1,6 @@
 import coeficientes as coef
 import formulas as form
+import grafico as graf
 import os
 
 # Loop para validar o coeficiente a
@@ -76,8 +77,6 @@ while True:
 print('\nA lei de formação da função é: ')
 print(f'f(x) = {termo_a}x² + ({termo_b}x) + ({termo_c})')
 
-funcao = (termo_a * (x**2) + (termo_b * x) + termo_c)
-
 # Apresentar o Delta
 print('')
 delta = form.delta(termo_a, termo_b, termo_c)
@@ -114,3 +113,20 @@ if termo_a < 0:
 else:
 
     print(f'O ponto máximo da função é ({xv}  , {yv})')
+
+
+# Gerar gráfico
+while True:
+
+    resposta = input('\nDeseja gerar o gráfico da função? [s/n]')
+
+    if resposta == 'n':
+
+        print('\nPrograma encerrado.')
+        break
+
+    if resposta == 's':
+
+        valores_x_y = graf.gerar_valores(termo_a, termo_b, termo_c)
+
+        graf.gerar_grafico(valores_x_y[0], valores_x_y[1])
